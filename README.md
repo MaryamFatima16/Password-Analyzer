@@ -1,6 +1,6 @@
 # Password Analyzer
 
-A straightforward PyQt5 application designed to evaluate and improve password strength based on common security criteria.
+A password analyzer application designed to evaluate and improve password strength based on common security criteria.
 
 ## Features
 
@@ -16,6 +16,11 @@ A straightforward PyQt5 application designed to evaluate and improve password st
 </p>
 
 <p align="center">
+  <img src="screenshots/Weak-password.png" alt="Weak Password" width="400"/>
+  <br/><i>Weak Password Strength Rating</i>
+</p>
+
+<p align="center">
   <img src="screenshots/Moderate-password.png" alt="Moderate Password" width="400"/>
   <br/><i>Moderate Password Strength Rating</i>
 </p>
@@ -25,17 +30,13 @@ A straightforward PyQt5 application designed to evaluate and improve password st
   <br/><i>Strong Password Strength Rating</i>
 </p>
 
-<p align="center">
-  <img src="screenshots/Weak-password.png" alt="Weak Password" width="400"/>
-  <br/><i>Weak Password Strength Rating</i>
-</p>
 
 ## Installation
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/your-username/password-analyzer.git
-    cd password-analyzer
+    git clone https://github.com/your-username/Password-Analyzer.git
+    cd Password-Analyzer
     ```
 
 2. **Install Required Packages**:
@@ -47,7 +48,7 @@ A straightforward PyQt5 application designed to evaluate and improve password st
 3. **Run the Application**:
     Launch the application with:
     ```sh
-    python password_analyzer.py
+    python Password_Analyzer.py
     ```
 
 ## Usage
@@ -62,10 +63,5 @@ A straightforward PyQt5 application designed to evaluate and improve password st
 - **Strength Rating**: Based on length, character variety (uppercase, lowercase, numbers, special characters).
 - **Recommendations**: Suggestions provided if the password does not meet the security criteria.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
-Feel free to modify the URL in the cloning instructions to match your GitHub repository.
