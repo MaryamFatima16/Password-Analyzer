@@ -35,7 +35,7 @@ A password analyzer application designed to evaluate and improve password streng
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/your-username/Password-Analyzer.git
+    git clone https://github.com/MaryamFatima16/Password-Analyzer.git
     cd Password-Analyzer
     ```
 
